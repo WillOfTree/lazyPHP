@@ -9,7 +9,7 @@ class mail
 {
     //发送邮件的账户和密码
     private $email_username = 'tianxia2_wish@126.com';
-    private $email_password = 'dante123';
+    private $email_password = 'dante';
     private $service_dir = "./result/";
 
     public function sendMail($toAddr, $toUser){
